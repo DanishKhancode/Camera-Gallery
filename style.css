@@ -128,7 +128,7 @@ background-color: #ffc0cb57;
 .gallery{
     position: absolute;
     right: 6rem;
-    bottom: 6.5rem;
+    bottom: 4rem;
     z-index: 2;
 }
 .gallery:hover{
