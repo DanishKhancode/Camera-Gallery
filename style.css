@@ -75,8 +75,8 @@ align-items: center;
 }
 .timer-cont{
     position: absolute;
-    bottom:  3rem;
-    left: 5.5rem;
+    top:  13rem;
+    right: 4.5rem;
     color: white;
     font-size: 0.8rem;
 }
