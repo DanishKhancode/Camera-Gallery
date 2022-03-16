@@ -42,11 +42,12 @@ align-items: center;
     border-radius: 50%;
 }
 .capture-btn{
-    background-color: white;
+    background-color: yellow;
     height: 3rem;
     width: 3rem;
     border-radius: 50%;
 }
+
 .scale-record{
     animation-name: scale-record;
     animation-iteration-count: infinite;
@@ -56,6 +57,9 @@ align-items: center;
     animation-name: scale-capture;
     animation-iteration-count: 1;
     animation-duration: 1s;
+}
+.scale-capture:hover{
+    background-color: black;
 }
 @keyframes scale-record{
     0%{
@@ -122,8 +126,11 @@ background-color: #ffc0cb57;
     z-index: 1;
 }
 .material-icons{
-    color: white;
-    font-size: 2rem;
+    color: yellow;
+    font-size: 3.5rem;
+}
+.material-icons:hover {
+    transform: scale(1.1);
 }
 .gallery{
     position: absolute;
